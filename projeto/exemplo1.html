@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olá Mundo!!</title>
+  </head>
+  <script>
+    function clicknobutao() {
+      alert("Surprise!!!");
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: darkseagreen;
+    }
+    h1 {
+      font-family: Tahoma;
+      color: cornsilk;
+      font-size: 32px;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    img {
+      min-width: 42%;
+      padding: 2px;
+      margin-top: 13px;
+      margin-bottom: 13px;
+      margin-left: 27%;
+    }
+    .margin-minima {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .margin-minima input,
+    .margin-minima select,
+    .margin-minima button {
+        min-width: 50vw;
+    }
+  </style>
+
+  <body>
+    <div class="margin-minima()">
+      <h1>Titulo h1</h1>
+      <h2>Titulo h2</h2>
+      <p>texto com paragrafo</p>
+      <span>texto sem paragrafo - tipo span</span>
+    </div>
+    <img src="really.png" />
+    <div class="margin-minima()">
+      <a href="https://google.com.br">link para o google (parametro 'a')</a>
+    </div>
+    <div>
+      <div class="margin-minima()">
+        <input type="date" />
+      </div>
+      <div class="margin-minima()">
+        <select>
+          <option>Options</option>
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+        </select>
+      </div>
+      <div class="margin-minima()">
+        <button onclick="clicknobutao()">GhostButton</button>
+      </div>
+    </div>
+  </body>
+</html>
