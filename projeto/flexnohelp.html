@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox sem Consulta V0.2</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      h1 {
+        font-family: Impact;
+        font-size: large;
+        color: orangered;
+        margin: auto;
+      }
+      #div1 {
+        height: 24vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: orangered;
+      }
+      #div2 {
+        height: 24vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: orange;
+      }
+      #div3 {
+        display: flex;
+        justify-content: space-between;
+      }
+      #div3 div {
+        display: flex;
+        height: 12vh;
+      }
+      #div3 div.info1 {
+        display: flex;
+        background-color: yellow;
+      }
+      #div3 div.info2 {
+        display: flex;
+        background-color: green;
+        align-items: center;
+      }
+      #div4 {
+        height: 24vh;
+        display: flex;
+        justify-content: space-around;
+      }
+      #div4 div {
+        height: 24vh;
+      }
+      #div4 div.info3 {
+        display: flex;
+        justify-content: flex-start;
+        background-color: blue;
+        width: 50%;
+      }
+      #div4 div.info4 {
+        display: flex;
+        justify-content: flex-start;
+        background-color: purple;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div><h1>Replicando FlexBox sem consulta V0.2</h1></div>
+    <div id="div1">Div 1</div>
+    <div id="div2">Div 2</div>
+    <div id="div3">
+      <div class="info1">Info 1</div>
+      <div class="info2">Info 2</div>
+    </div>
+    <div id="div4">
+      <div class="info3">Info 3</div>
+      <div class="info4">Info 4</div>
+    </div>
+  </body>
+</html>
