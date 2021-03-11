@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio2-FlexBox</title>
+  </head>
+  <style>
+    h1 {
+      font-family: Arial;
+      color: orangered;
+      margin: 9px;
+      text-align: justify;
+      font-size: large;
+    }
+    body {
+      margin: 0;
+    }
+    #div1 {
+      height: 17vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: orangered;
+    }
+    #div2 {
+      height: 17vh;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      background-color: orange;
+    }
+    #div3 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    #div3 div {
+      height: 8vh;
+    }
+    #div3 div.info1 {
+      background-color: yellow;
+    }
+    #div3 div.info2 {
+      background-color: green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #div4 {
+      display: flex;
+      height: 17vh;
+    }
+    #div4 div.info3{
+        background-color: blue;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        width: 50%;
+    }
+    
+    #div4 div.info4{
+        background-color: purple;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        width: 50%;
+    }
+  </style>
+
+  <body>
+    <div><h1>Replicar usando flex-box</h1></div>
+    <div id="div1">Div 1</div>
+    <div id="div2">Div 2</div>
+    <div id="div3">
+      <div class="info1">Info 1</div>
+      <div class="info2">Info 2</div>
+    </div>
+    <div id="div4">
+      <div class="info3">Info 3</div>
+      <div class="info4">Info 4</div>
+    </div>
+  </body>
+</html>
